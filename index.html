@@ -34,13 +34,15 @@
             justify-content: space-between; /* Space between sections */
             gap: 20px; /* Gap between sections */
         }
+        .left-section, .right-section {
+            flex: 1; /* Allow sections to grow equally */
+        }
         section {
             background: white;
             padding: 15px;
             margin-bottom: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            flex: 1; /* Allow sections to grow equally */
         }
         ul {
             list-style-type: none;
@@ -92,73 +94,77 @@
     </section>
 
     <div class="container">
-        <section>
-            <h2>Experience</h2>
-            <h3>Field Service Technician</h3>
-            <p>CON-TEST Division of Contamination, Ajax, ON | Jul 2020 - 2024</p>
-            <ul>
-                <li>Serviced and maintained cleanrooms, biosafety cabinets, centrifuges, and HEPA filters in hospitals, schools, pharmacies, and warehouse locations.</li>
-                <li>Conducted inspections, repairs, and installations to ensure equipment compliance and performance.</li>
-                <li>Prepared detailed reports on service activities and equipment status.</li>
-                <li>Ensured customer satisfaction through effective communication and timely service delivery.</li>
-            </ul>
+        <div class="left-section">
+            <section>
+                <h2>Experience</h2>
+                <h3>Field Service Technician</h3>
+                <p>CON-TEST Division of Contamination, Ajax, ON | Jul 2020 - 2024</p>
+                <ul>
+                    <li>Serviced and maintained cleanrooms, biosafety cabinets, centrifuges, and HEPA filters in hospitals, schools, pharmacies, and warehouse locations.</li>
+                    <li>Conducted inspections, repairs, and installations to ensure equipment compliance and performance.</li>
+                    <li>Prepared detailed reports on service activities and equipment status.</li>
+                    <li>Ensured customer satisfaction through effective communication and timely service delivery.</li>
+                </ul>
 
-            <h3>Robotics Technician</h3>
-            <p>ABC Technologies, Brampton, ON | 2017 - 2020</p>
-            <ul>
-                <li>Maintained and repaired robotic systems and automation cells for car parts manufacturing.</li>
-                <li>Handled diagnostics and troubleshooting to ensure efficient operation of robots and automation equipment.</li>
-                <li>Conducted preventive maintenance and implemented process improvements.</li>
-                <li>Collaborated with engineering teams to enhance system performance and reliability.</li>
-            </ul>
+                <h3>Robotics Technician</h3>
+                <p>ABC Technologies, Brampton, ON | 2017 - 2020</p>
+                <ul>
+                    <li>Maintained and repaired robotic systems and automation cells for car parts manufacturing.</li>
+                    <li>Handled diagnostics and troubleshooting to ensure efficient operation of robots and automation equipment.</li>
+                    <li>Conducted preventive maintenance and implemented process improvements.</li>
+                    <li>Collaborated with engineering teams to enhance system performance and reliability.</li>
+                </ul>
 
-            <h3>Bell Technician</h3>
-            <p>Bell, Brampton, ON | 2017</p>
-            <ul>
-                <li>Installed and repaired telecommunication equipment for residential and commercial clients.</li>
-                <li>Provided technical support for customers, ensuring service satisfaction.</li>
-                <li>Conducted system diagnostics and resolved connectivity issues.</li>
-                <li>Documented service calls and maintained accurate records of installations and repairs.</li>
-            </ul>
-        </section>
+                <h3>Bell Technician</h3>
+                <p>Bell, Brampton, ON | 2017</p>
+                <ul>
+                    <li>Installed and repaired telecommunication equipment for residential and commercial clients.</li>
+                    <li>Provided technical support for customers, ensuring service satisfaction.</li>
+                    <li>Conducted system diagnostics and resolved connectivity issues.</li>
+                    <li>Documented service calls and maintained accurate records of installations and repairs.</li>
+                </ul>
+            </section>
+        </div>
 
-        <section>
-            <h2>Skills</h2>
-            <div class="skills">
-                <div>Technical Support and Troubleshooting</div>
-                <div>Windows Operating Systems</div>
-                <div>TCP/IP Networking</div>
-                <div>Microsoft Office 365</div>
-                <div>Help Desk Ticketing Systems</div>
-                <div>Remote Support Tools</div>
-                <div>PowerShell Scripting</div>
-                <div>Robot Programming Fundamentals</div>
-                <div>Basic PLC Programming</div>
-                <div>Networking Concepts (DNS, DHCP)</div>
-                <div>Hardware Installation and Maintenance</div>
-                <div>Technical Documentation</div>
-                <div>Excellent Problem-Solving Skills</div>
-                <div>Customer Relationship Management</div>
-                <div>Time Management and Multitasking</div>
-                <div>Cleanroom Maintenance</div>
-                <div>Biosafety Cabinet Servicing</div>
-                <div>Centrifuge Repair</div>
-                <div>Industrial Automation</div>
-                <div>Communication Skills</div>
-            </div>
-        </section>
+        <div class="right-section">
+            <section>
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div>Technical Support and Troubleshooting</div>
+                    <div>Windows Operating Systems</div>
+                    <div>TCP/IP Networking</div>
+                    <div>Microsoft Office 365</div>
+                    <div>Help Desk Ticketing Systems</div>
+                    <div>Remote Support Tools</div>
+                    <div>PowerShell Scripting</div>
+                    <div>Robot Programming Fundamentals</div>
+                    <div>Basic PLC Programming and Troubleshooting</div>
+                    <div>Networking Concepts (DNS, DHCP)</div>
+                    <div>Hardware Installation and Maintenance</div>
+                    <div>Technical Documentation and Reporting</div>
+                    <div>Excellent Problem-Solving Skills</div>
+                    <div>Customer Relationship Management Systems</div>
+                    <div>Time Management and Multitasking</div>
+                    <div>Cleanroom Maintenance</div>
+                    <div>Biosafety Cabinet Certification/Servicing</div>
+                    <div>Centrifuge Repair and HEPA Filter Maintenance</div>
+                    <div>Industrial Automation</div>
+                    <div>Communication Skills</div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <h3>Advanced Diploma, Electromechanical Technology/Electromechanical Engineering Technology</h3>
+                <p>Humber College, 2014 - 2017</p>
+                <ul>
+                    <li>Focused on industrial automation, robotics, and control systems.</li>
+                    <li>Gained hands-on experience in diagnostics, programming, and automation technology through project-based learning and lab work.</li>
+                    <li>Participated in after-hours lab and study groups.</li>
+                </ul>
+            </section>
+        </div>
     </div>
-
-    <section>
-        <h2>Education</h2>
-        <h3>Advanced Diploma, Electromechanical Technology/Electromechanical Engineering Technology</h3>
-        <p>Humber College, 2014 - 2017</p>
-        <ul>
-            <li>Focused on industrial automation, robotics, and control systems.</li>
-            <li>Gained hands-on experience in diagnostics, programming, and automation technology through project-based learning and lab work.</li>
-            <li>Participated in after-hours lab and study groups.</li>
-        </ul>
-    </section>
 
     <section>
         <h2>Projects</h2>
