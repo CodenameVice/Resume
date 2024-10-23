@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,137 +7,150 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-
-        h1 {
+            font-size: 12px;
+            line-height: 1.4;
+            margin: 0.5in;
             color: #333;
+            background-color: #f9f9f9;
         }
-
-        h2 {
-            color: #666;
-        }
-
-        h3 {
-            color: #444;
-        }
-
-        p,
-        ul {
-            margin: 0 0 10px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding-left: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        .contact-info {
+        header {
+            text-align: center;
             margin-bottom: 20px;
         }
-
-        .skills,
-        .languages,
-        .education {
-            margin-top: 20px;
+        h1 {
+            font-size: 24px;
+            margin: 0;
         }
-
-        .projects {
-            margin-top: 20px;
+        h2 {
+            font-size: 20px;
+            margin: 10px 0;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
         }
-
-        .experience {
+        h3 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        section {
+            margin-bottom: 15px;
+        }
+        .contact {
+            text-align: center;
+            font-size: 14px;
+        }
+        .section-content {
+            margin-left: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 15px;
+        }
+        li:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #007BFF;
+        }
+        .languages {
+            display: flex;
+            justify-content: space-around;
+        }
+        footer {
+            text-align: center;
             margin-top: 20px;
+            font-size: 10px;
+            color: #777;
         }
     </style>
 </head>
-
 <body>
-    <div class="container">
-        <h1>Lakshdeep Chauhan</h1>
-        <div class="contact-info">
-            <p>4 Lisa Street, Brampton, ON, L6T 4B6</p>
-            <p>Phone: 289-233-6938 | Email: <a href="mailto:laksh.work17@gmail.com">laksh.work17@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/lakshchauhan/">linkedin.com/in/lakshchauhan</a> | GitHub: <a href="https://github.com/CodenameVice">github.com/CodenameVice</a></p>
-        </div>
 
-        <h2>Professional Summary</h2>
-        <p>Aspiring IT professional with a robust background in troubleshooting hardware and software issues, delivering exceptional customer service, and assisting with system installations and configurations. Technically skilled in industrial automation and robotics, with a commitment to continuous learning and professional growth in the IT field.</p>
-
-        <div class="experience">
-            <h2>Work Experience</h2>
-
-            <h3>Field Service Technician</h3>
-            <p>Con-Test - Contamination Containment Technology | Ajax, ON <br> 2020 - 2024</p>
-            <ul>
-                <li>Installed, certified, and repaired critical equipment like cleanrooms, HEPA filters, fume hoods, and biosafety cabinets, maintaining full compliance with contamination control regulations.</li>
-                <li>Consistently exceeded client expectations by completing certifications and inspections ahead of schedule, improving operational efficiency in high-stakes environments such as hospitals and laboratories.</li>
-                <li>Achieved a 90% first-time fix rate on equipment repairs, significantly minimizing downtime and ensuring smooth operations for clients.</li>
-                <li>Collaborated closely with clients to fine-tune equipment performance, resulting in a 15% boost in system efficiency and overall productivity.</li>
-                <li>Conducted proactive maintenance that extended the lifespan of equipment, preventing costly breakdowns and reducing the need for unplanned repairs.</li>
-            </ul>
-
-            <h3>Robot Technician</h3>
-            <p>ABC Technologies Inc. - Parts Manufacturing | Brampton, ON <br> 2017 - 2020</p>
-            <ul>
-                <li>Maintained, programmed, and repaired Panasonic, Motoman, and ABB robotic cells in a high-volume automotive parts manufacturing environment.</li>
-                <li>Streamlined automated cell performance, reducing downtime and improving production efficiency by troubleshooting and resolving mechanical and electrical issues.</li>
-                <li>Collaborated with production teams and engineers to integrate robotic systems and achieve seamless operations across automated processes.</li>
-                <li>Conducted regular diagnostics and preventive maintenance, increasing system reliability and extending equipment lifespan by 15%.</li>
-                <li>Played a key role in minimizing production delays by quickly addressing robotic malfunctions and implementing timely solutions.</li>
-            </ul>
-
-            <h3>Bell Technician</h3>
-            <p>Bell Canada - Phone/Internet/TV Services <br> Brampton, ON | 2017</p>
-            <ul>
-                <li>Installed, configured, and maintained telecommunications equipment and services for residential and commercial clients.</li>
-                <li>Troubleshot and resolved connectivity issues, ensuring consistent and reliable service for customers.</li>
-                <li>Provided on-site technical support, delivering excellent customer service while addressing technical concerns quickly and efficiently.</li>
-            </ul>
-        </div>
-
-        <div class="projects">
-            <h2>Projects</h2>
-            <h3>COVID Dashboard</h3>
-            <p>Created an interactive dashboard utilizing Tableau to visualize COVID-19 relational metrics based on a dataset from Our World in Data. Completed in October 2024 within a single day, this project provided insights into trends and correlations, facilitating data-driven decision-making. <a href="https://public.tableau.com/app/profile/lakshdeep.chauhan/viz/CovidDashboard_17296150639550/Dashboard1" target="_blank">View Dashboard</a></p>
-        </div>
-
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>System Diagnostics & Problem-Solving</li>
-                <li>Technical Troubleshooting</li>
-                <li>Hardware Assembly & Repair</li>
-                <li>Field Service Management</li>
-                <li>Automation and Robotics</li>
-                <li>Customer Service Excellence</li>
-                <li>Windows & Office Suite Proficiency</li>
-                <li>Network Basics (TCP/IP, DNS, DHCP)</li>
-            </ul>
-        </div>
-
-        <div class="languages">
-            <h2>Languages</h2>
-            <ul>
-                <li>English</li>
-                <li>Hindi</li>
-                <li>Punjabi</li>
-            </ul>
-        </div>
-
-        <div class="education">
-            <h2>Education</h2>
-            <h3>Humber College</h3>
-            <p>Advanced Diploma, Electromechanical Technology/Electromechanical Engineering Technology <br> 2014 - 2017</p>
-            <p>Focus on industrial automation, robotics, and control systems. Gained hands-on experience in diagnostics, programming, and automation technology through project-based learning and lab work.</p>
-        </div>
+<header>
+    <h1>Lakshdeep Chauhan</h1>
+    <div class="contact">
+        <p>4 Lisa Street, Brampton, ON, L6T 4B6</p>
+        <p>Phone: 289-233-6938 | Email: <a href="mailto:laksh.work17@gmail.com">laksh.work17@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/lakshchauhan/">linkedin.com/in/lakshchauhan</a> | GitHub: <a href="https://github.com/CodenameVice">github.com/CodenameVice</a></p>
     </div>
-</body>
+</header>
 
+<section>
+    <h2>Objective</h2>
+    <p>Aspiring IT professional with a strong foundation in troubleshooting hardware and software issues, providing excellent customer service, and assisting with system installations. Skilled in industrial automation and robotics, committed to continuous learning and professional growth in the IT field.</p>
+</section>
+
+<section>
+    <h2>Work Experience</h2>
+    <div class="section-content">
+        <h3>Field Service Technician</h3>
+        <p><strong>Con-Test - Contamination Containment Technology</strong> | Ajax, ON (2020 - 2024)</p>
+        <ul>
+            <li>Installed, certified, and repaired cleanrooms, HEPA filters, and biosafety cabinets, maintaining compliance with regulations.</li>
+            <li>Achieved a 90% first-time fix rate on equipment repairs, minimizing downtime and ensuring uninterrupted operations.</li>
+            <li>Conducted proactive maintenance, extending equipment lifespan and reducing unplanned repairs.</li>
+        </ul>
+
+        <h3>Robot Technician</h3>
+        <p><strong>ABC Technologies Inc.</strong> | Brampton, ON (2017 - 2020)</p>
+        <ul>
+            <li>Maintained and repaired Panasonic, Motoman, and ABB robotic systems in a high-volume manufacturing environment.</li>
+            <li>Streamlined cell performance, reducing downtime and enhancing production efficiency.</li>
+            <li>Conducted diagnostics and preventive maintenance, increasing reliability by 15%.</li>
+        </ul>
+
+        <h3>Bell Technician</h3>
+        <p><strong>Bell Canada</strong> | Brampton, ON (2017)</p>
+        <ul>
+            <li>Installed and maintained telecommunications equipment for residential and commercial clients.</li>
+            <li>Troubleshot connectivity issues, ensuring reliable service and customer satisfaction.</li>
+            <li>Provided on-site technical support, addressing technical concerns efficiently.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="section-content">
+        <p><strong>COVID-19 Dashboard</strong> | October 2024</p>
+        <ul>
+            <li>Created a visual representation of relational metrics related to COVID-19 using a dataset from Our World in Data, completed in under a day.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="section-content">
+        <ul>
+            <li>Technical Troubleshooting</li>
+            <li>System Diagnostics</li>
+            <li>Hardware Assembly & Repair</li>
+            <li>Customer Service & Support</li>
+            <li>Windows & macOS Proficiency</li>
+            <li>Field Equipment Maintenance</li>
+            <li>Industrial Automation & Robotics</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Languages</h2>
+    <div class="languages">
+        <p>English</p>
+        <p>Hindi</p>
+        <p>Punjabi</p>
+    </div>
+</section>
+
+<footer>
+    <p>References available upon request.</p>
+</footer>
+
+</body>
 </html>
