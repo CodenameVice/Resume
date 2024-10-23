@@ -10,41 +10,43 @@
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
-            line-height: 1.6;
+            line-height: 1.4; /* Reduced line-height for compactness */
         }
         header {
             text-align: center;
-            padding-bottom: 20px;
+            padding-bottom: 10px; /* Reduced padding */
             border-bottom: 2px solid #007BFF;
             margin-bottom: 20px;
         }
         h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 2.2em; /* Reduced font size */
             color: #007BFF;
         }
         h2 {
             color: #333;
             border-bottom: 1px solid #ddd;
             padding-bottom: 5px;
+            font-size: 1.5em; /* Reduced font size */
         }
         section {
             background: white;
-            padding: 15px;
-            margin-bottom: 20px;
+            padding: 10px; /* Reduced padding */
+            margin-bottom: 15px; /* Reduced margin */
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Reduced shadow */
         }
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 0; /* Removed margin */
         }
         li {
-            margin: 5px 0;
+            margin: 3px 0; /* Reduced margin */
         }
         footer {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 15px; /* Reduced margin */
             font-size: 0.9em;
             color: #555;
         }
@@ -57,6 +59,12 @@
         }
         a:hover {
             text-decoration: underline;
+        }
+        /* Skills Grid */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+            gap: 10px; /* Space between grid items */
         }
     </style>
 </head>
@@ -115,28 +123,28 @@
 
     <section>
         <h2>Skills</h2>
-        <ul>
-            <li>Technical Support and Troubleshooting</li>
-            <li>Windows Operating Systems</li>
-            <li>TCP/IP Networking</li>
-            <li>Microsoft Office 365</li>
-            <li>Help Desk Ticketing Systems</li>
-            <li>Remote Support Tools</li>
-            <li>PowerShell Scripting</li>
-            <li>Robot Programming Fundamentals</li>
-            <li>Basic PLC Programming and Troubleshooting</li>
-            <li>Networking Concepts (DNS, DHCP)</li>
-            <li>Hardware Installation and Maintenance</li>
-            <li>Technical Documentation and Reporting</li>
-            <li>Excellent Problem-Solving Skills</li>
-            <li>Customer Relationship Management Systems</li>
-            <li>Time Management and Multitasking</li>
-            <li>Cleanroom Maintenance</li>
-            <li>Biosafety Cabinet Certification/Servicing</li>
-            <li>Centrifuge Repair and HEPA Filter Maintenance</li>
-            <li>Industrial Automation</li>
-            <li>Communication Skills</li>
-        </ul>
+        <div class="skills">
+            <div>Technical Support and Troubleshooting</div>
+            <div>Windows Operating Systems</div>
+            <div>TCP/IP Networking</div>
+            <div>Microsoft Office 365</div>
+            <div>Help Desk Ticketing Systems</div>
+            <div>Remote Support Tools</div>
+            <div>PowerShell Scripting</div>
+            <div>Robot Programming Fundamentals</div>
+            <div>Basic PLC Programming</div>
+            <div>Networking Concepts (DNS, DHCP)</div>
+            <div>Hardware Installation and Maintenance</div>
+            <div>Technical Documentation</div>
+            <div>Excellent Problem-Solving Skills</div>
+            <div>Customer Relationship Management</div>
+            <div>Time Management and Multitasking</div>
+            <div>Cleanroom Maintenance</div>
+            <div>Biosafety Cabinet Servicing</div>
+            <div>Centrifuge Repair</div>
+            <div>Industrial Automation</div>
+            <div>Communication Skills</div>
+        </div>
     </section>
 
     <section>
