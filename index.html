@@ -10,16 +10,23 @@
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
+            line-height: 1.6;
         }
         header {
             text-align: center;
             padding-bottom: 20px;
+            border-bottom: 2px solid #007BFF;
+            margin-bottom: 20px;
         }
         h1 {
             margin: 0;
+            font-size: 2.5em;
+            color: #007BFF;
         }
         h2 {
             color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
         }
         section {
             background: white;
@@ -35,16 +42,34 @@
         li {
             margin: 5px 0;
         }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .contact-info {
+            margin-top: 10px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Lakshdeep Chauhan</h1>
-        <p>4 Lisa Street, Brampton, ON, L6T 4B6 | Ph: 289-233-6938 | laksh.work17@gmail.com</p>
-        <p>
-            <a href="https://github.com/CodenameVice">GitHub</a> | 
-            <a href="https://www.linkedin.com/in/lakshchauhan/">LinkedIn</a>
-        </p>
+        <div class="contact-info">
+            <p>4 Lisa Street, Brampton, ON, L6T 4B6 | Ph: 289-233-6938 | <a href="mailto:laksh.work17@gmail.com">laksh.work17@gmail.com</a></p>
+            <p>
+                <a href="https://github.com/CodenameVice" target="_blank">GitHub Profile</a> | 
+                <a href="https://www.linkedin.com/in/lakshchauhan/" target="_blank">LinkedIn Profile</a>
+            </p>
+        </div>
     </header>
 
     <section>
