@@ -27,19 +27,19 @@
             color: #333;
             border-bottom: 1px solid #ddd;
             padding-bottom: 5px;
-            margin: 10px 0; /* Added margin for spacing */
+            margin: 10px 0;
         }
         .container {
-            display: flex; /* Use flexbox for side-by-side layout */
-            justify-content: space-between; /* Space between sections */
-            gap: 20px; /* Gap between sections */
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
         }
         .left-section, .right-section {
-            flex: 1; /* Allow sections to grow equally */
-            background: white; /* Ensure background color is consistent */
-            padding: 15px; /* Padding for sections */
-            border-radius: 5px; /* Rounded corners */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for sections */
+            flex: 1;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         ul {
             list-style-type: none;
@@ -64,20 +64,21 @@
         a:hover {
             text-decoration: underline;
         }
-        /* Skills Grid */
         .skills {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
-            gap: 10px; /* Space between grid items */
-            margin: 10px 0; /* Added margin for spacing */
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 10px 0;
         }
-        /* Style for the projects section */
         .projects-section, .summary-section {
-            background: white; /* Set white background */
-            padding: 15px; /* Same padding as other sections */
-            border-radius: 5px; /* Rounded corners */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for sections */
-            margin-top: 20px; /* Add space above */
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .summary-section {
+            margin-bottom: 20px; /* Added margin to create space */
         }
     </style>
 </head>
@@ -93,7 +94,7 @@
         </div>
     </header>
 
-    <section class="summary-section"> <!-- Added class for styling -->
+    <section class="summary-section">
         <h2>Professional Summary</h2>
         <p>Aspiring IT professional with a solid background in troubleshooting hardware and software issues, complemented by a commitment to delivering exceptional customer service. Proficient in system installations and configurations, with a strong foundation in industrial automation and robotics. Eager to leverage technical skills and knowledge for continuous learning and growth in the IT field.</p>
     </section>
